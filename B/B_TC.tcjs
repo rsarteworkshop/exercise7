@@ -1,0 +1,14 @@
+/*
+ *   Converted from: platform:/resource/B/Default Transform Configuration.tc
+ */
+
+let tc = TCF.define(TCF.CPP_TRANSFORM);
+tc.sources = [
+    'platform:/resource/B/B.emx#_AHfZkUZgEemVtreHl5nFjQ'
+];
+tc.createTargetProject = true;
+tc.targetProject = '/B_target';
+tc.compilationMakeType = MakeType.GNU_make;
+tc.targetConfiguration = 'WinT.x64-MinGw-8.1.0';
+tc.topCapsule = 'platform:/resource/B/B.emx#_BhwYIEZgEemVtreHl5nFjQ';
+tc.compilationMakeCommand = 'mingw32-make';
